@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Reenie+Beanie&display=swap"
+        rel="stylesheet">
+
+    <title>Cheat Sheet</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>My first cheat sheet!</h1>
+        <p>By Christian Lopez</p>
+        <h2>HTML Fundamentals</h2>
+    </div>
+
+    <table>
+        <thead>
+            <tr class="table-header">
+                <th>Skill</th>
+                <th>Description</th>
+                <th>Code example</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- Video element row -->
+            <tr class="row-content">
+                <td class="skill"><span class="code-element"><span class="less-than">&lt;</span>video<span
+                            class="greater-than">&gt;</span></span> element</td>
+                <td>The <span class="code-element"><span class="less-than">&lt;</span>video<span
+                            class="greater-than">&gt;</span></span>
+                    element embeds a media player for video playback.
+                </td>
+                <td>
+                    <div class="video-example">
+                        <img src="video-element.png" alt="Example of video element code">
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Image element row -->
+            <tr class="row-content">
+                <td class="skill"><span class="code-element"><span class="less-than">&lt;</span>img<span
+                            class="greater-than">&gt;</span></span> element</td>
+                <td>HTML image <span class="code-element"><span class="less-than">&lt;</span>img<span
+                            class="greater-than">&gt;</span></span> elements embed images in
+                    documents. The <span class="code-attribute">src</span>
+                    attribute contains the image URL and is mandatory. The <span class="code-element"><span
+                            class="less-than">&lt;</span>img<span class="greater-than">&gt;</span></span> is an
+                    empty element
+                    meaning it should not have a closing tag.
+                </td>
+                <td>
+                    <div class="image-example">
+                        <img src="img-element.png" alt="Example of img code">
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Title element row -->
+            <tr class="row-content">
+                <td class="skill"><span class="code-element"><span class="less-than">&lt;</span>title<span
+                            class="greater-than">&gt;</span></span> element</td>
+                <td>The <span class="code-element"><span class="less-than">&lt;</span>title<span
+                            class="greater-than">&gt;</span></span> element contains the text that defines the title
+                    of an HTML document. The title is displayed on the browser's title bar or tab in which the HTML page
+                    is displayed. The <span class="code-element"><span class="less-than">&lt;</span>title<span
+                            class="greater-than">&gt;</span></span> element can only be contained inside a document's
+                    <span class="code-element"><span class="less-than">&lt;</span>head<span
+                            class="greater-than">&gt;</span></span> element.
+                </td>
+                <td>
+                    <div class="title-example">
+                        <img src="title-element.png" alt="Example of the title code">
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Aside element row -->
+            <tr class="row-content">
+                <td class="skill"><span class="code-element"><span class="less-than">&lt;</span>aside<span
+                            class="greater-than">&gt;</span></span> element</td>
+                <td>The <span class="code-element"><span class="less-than">&lt;</span>aside<span
+                            class="greater-than">&gt;</span></span> element is used to mark aditional information that
+                    can enhance another element, but isn'r required in order to understand the main content. Usually
+                    this information would be in a sidebar or a location where it doesn't obstruct the main piece of the
+                    content.<br>An example of this would be an article that discusses how to take care of a dog and
+                    next to the article an ad would appear advertising a dog grooming product.</td>
+                <td>
+                    <div class="aside-example">
+                        <img src="aside-element.png" alt="Aside example code">
+                    </div>
+                </td>
+            </tr>
+
+            <!-- FIgure and Figcaption elements -->
+            <tr class="row-content">
+                <td class="skill"><span class="code-element"><span class="less-than">&lt;</span>figure<span
+                            class="greater-than">&gt;</span></span> and <span class="code-element"><span
+                            class="less-than">&lt;</span>figcaption<span class="greater-than">&gt;</span></span>
+                    element(s)</td>
+                <td>The <span class="code-element"><span class="less-than">&lt;</span>figure<span
+                            class="greater-than">&gt;</span></span> element is used to encapsulate media such as an
+                    image, diagram, or code snippet. The <span class="code-element"><span
+                            class="less-than">&lt;</span>figcaption<span class="greater-than">&gt;</span></span> element
+                    is used to describe the media encapsulated within the <span class="code-element"><span
+                            class="less-than">&lt;</span>figure<span class="greater-than">&gt;</span></span>
+                    element.<br>
+                    Developers will normally use <span class="code-element"><span
+                            class="less-than">&lt;</span>figcaption<span class="greater-than">&gt;</span></span> within
+                    the <span class="code-element"><span class="less-than">&lt;</span>figure<span
+                            class="greater-than">&gt;</span></span> element to group the media and description; this
+                    way if a developer decides to change the position of the media, the description will go along
+                    with it.</td>
+                <td>
+                    <div class="fig-and-caption-example">
+                        <img src="figure-caption.png" alt="figure and figcaption codes">
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Code comments! -->
+            <tr class="row-content">
+                <td class="skill">Code <span class="comment">&lt;!--comment--&gt;</span></td>
+                <td>In HTML, comments can be added between an opening <span class="comment">&lt;!--</span> and closing
+                    <span class="comment">--&gt;</span>. Content inside of comments will not be rendered by browsers,
+                    and are usually used to describe a part of code or provide other details.<br> Comments can span
+                    single or multiple lines.
+                </td>
+                <td>
+                    <div class="comment-example">
+                        <img src="comments.png" alt="Example of code comments">
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

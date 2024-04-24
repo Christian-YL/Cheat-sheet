@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+
+/* Code snippets */
+.code-element {
+    font-family: monospace;
+    color: rgb(234, 108, 139);
+    background-color: rgb(33, 30, 47);
+}
+
+.code-attribute {
+    font-family: monospace;
+    font-weight: 500;
+    color: rgb(180, 211, 83);
+    background-color: rgb(33, 30, 47);
+}
+
+.comment {
+    font-family: monospace;
+    font-style: italic;
+    color: rgb(147, 149, 152);
+    background-color: rgb(33, 30, 47);
+}
+
+.less-than,
+.greater-than {
+    color: white;
+}
+
+/* Header section */
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.header p {
+    font-size: .9em;
+}
+
+.header h2 {
+    font-size: 2.7em;
+}
+
+/* Table content*/
+table {
+    border: 0 solid black;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.table-header {
+    font-size: 2em;
+}
+
+.table-header th {
+    border: 0 solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.row-content td {
+    border: 0 solid black;
+    padding: 5px;
+}
+
+.skill {
+    text-align: center;
+}
+
+/* Video screenshot example */
+.video-example {
+    width: 22em;
+    height: 6.375em;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.video-example img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Image screenshot example*/
+.image-example {
+    width: 12.21875em;
+    height: 3.15625em;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.image-example img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Title screenshot example */
+.title-example {
+    width: 17.49375em;
+    height: 8.078125em;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.title-example img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Aside screenshot example */
+.aside-example {
+    width: 15.075em;
+    height: 9.75em;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.aside-example img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Figures screenshot example */
+.fig-and-caption-example {
+    width: 22.6875em;
+    height: 7.5em;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.fig-and-caption-example img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Comments screenshot example */
+.comment-example {
+    width: 15em;
+    height: 11.625em;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.comment-example img {
+    width: 100%;
+    height: 100%;
+}
